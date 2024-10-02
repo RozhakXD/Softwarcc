@@ -32,7 +32,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan **Softwarcc**:
 
 ## Troubleshooting
 - **Klik terlalu cepat**: Jika program mendeteksi bahwa Anda melakukan klik terlalu cepat, program akan secara otomatis menunggu 5 detik sebelum mencoba kembali.
-- **Kesalahan login**: Jika Anda memasukkan username atau password yang salah, program akan langsung memberikan notifikasi dan menghentikan proses.
+- **Kesalahan login**: Jika username atau password salah, program akan langsung memberi tahu Anda dan menghentikan proses. Coba lagi dengan data yang benar!
 - **Misi gagal**: Jika misi tidak bisa diselesaikan karena alasan tertentu, program akan menampilkan pesan kesalahan yang relevan.
 
 ## Masalah Umum
