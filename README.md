@@ -1,21 +1,19 @@
 # Softwarcc
-
-**Softwarcc** adalah sebuah program Python yang dirancang untuk mengotomatisasi 40 misi dalam upaya meningkatkan rating sebuah aplikasi di **mplus-softwarcc.com**. Program ini akan melakukan login menggunakan username dan password yang diberikan, kemudian menjalankan misi secara otomatis dengan memberikan umpan balik pada status setiap misi.
+**Softwarcc** adalah program Python yang otomatis menyelesaikan 40 misi untuk meningkatkan rating aplikasi di **mplus-softwarcc.com**. Program ini login dengan username dan password, lalu menjalankan misi dan memberikan umpan balik atas status setiap misi.
 
 ## Fitur
-
 - Mengotomatisasi proses login dan penyelesaian misi di mplus-softwarcc.com.
 - Menangani kesalahan umum seperti "You clicked too quickly" atau "Task is complete".
 - Tampilan output di konsol yang interaktif menggunakan **Rich**.
 - Waktu tunggu otomatis antara percobaan misi untuk mencegah pemblokiran.
 
 ## Persyaratan
-
-- Python 3.8 atau versi lebih baru
-- Koneksi internet aktif
+- Modul Python:
+  - `requests`
+  - `rich`
+- Python 3.x
 
 ## Instalasi
-
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan **Softwarcc**:
 
 1. **Clone repository ini**:
@@ -33,9 +31,9 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan **Softwarcc**:
     ```
 
 ## Troubleshooting
+- **Klik terlalu cepat**: Jika program mendeteksi bahwa Anda melakukan klik terlalu cepat, program akan secara otomatis menunggu 5 detik sebelum mencoba kembali.
 - **Kesalahan login**: Jika Anda memasukkan username atau password yang salah, program akan langsung memberikan notifikasi dan menghentikan proses.
 - **Misi gagal**: Jika misi tidak bisa diselesaikan karena alasan tertentu, program akan menampilkan pesan kesalahan yang relevan.
-- **Klik terlalu cepat**: Jika program mendeteksi bahwa Anda melakukan klik terlalu cepat, program akan secara otomatis menunggu 5 detik sebelum mencoba kembali.
 
 ## Masalah Umum
 - **Task tidak dapat diselesaikan**: Pastikan akun Anda memiliki misi yang tersedia di **mplus-softwarcc.com**.
