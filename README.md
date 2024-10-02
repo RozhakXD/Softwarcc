@@ -39,6 +39,9 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan **Softwarcc**:
 - **Task tidak dapat diselesaikan**: Pastikan akun Anda memiliki misi yang tersedia di **mplus-softwarcc.com**.
 - **Kesalahan otentikasi**: Jika mengalami masalah saat login, periksa apakah username dan password sudah benar, serta pastikan koneksi internet Anda stabil.
 
+## Tangkapan Layar
+![FunPic_20241003](https://github.com/user-attachments/assets/cb8db7fb-1ea7-4a60-8fe9-558cc7ed82ab)
+
 ## Kontribusi
 Kontribusi sangat diterima! Jika Anda menemukan bug atau memiliki saran fitur, silakan buat **issue** atau lakukan **pull request** di repository ini.
 
